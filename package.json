@@ -1,8 +1,11 @@
 {
   "name": "icontainer",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "a container and center layout, with breakpoint and iphone size",
   "type": "module",
   "main": "./dist/index.js",
+  "author": "magesium-",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "lib:dev": "tsup src/components/container/index.tsx --watch",
@@ -21,5 +24,19 @@
   },
   "files": [
     "dist/"
-  ]
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyong008/icontainer.git",
+    "branch": "master",
+    "platform": "github"
+  }
 }

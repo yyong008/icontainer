@@ -3,3 +3,69 @@
   align-items: center;
   justify-content: center;
 }
+
+.iContainerCenter-XS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 480px;
+}
+
+.iContainerCenter-SM {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 576px;
+}
+
+.iContainerCenter-MD {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 768px;
+}
+
+.iContainerCenter-LG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 992px;
+}
+
+.iContainerCenter-XL {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+}
+
+.iContainerCenter-XXL {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1600px;
+}
+
+.iContainerCenter-iPhone-4-4S {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 480px;
+}
+
+.iContainerCenter-iPhone-5-5S-5C, .iContainerCenter-iPhone-SE {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 568px;
+}
+
+.iContainerCenter-iPhone-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  height: 667px;
+}
